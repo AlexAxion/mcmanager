@@ -6,7 +6,7 @@ use std::io::{stdin, stdout, Write};
 mod tools;
 
 fn main(){
-    tools::sever_activity();
+    
     let mut current_location = (1, 1);
     
     let stdin = stdin();

@@ -1,0 +1,1 @@
+/home/alexaxion/Coding/Rust/git@github.com/mcmanager.git/mcmanager/target/debug/mcmanager: /home/alexaxion/Coding/Rust/git@github.com/mcmanager.git/mcmanager/src/main.rs /home/alexaxion/Coding/Rust/git@github.com/mcmanager.git/mcmanager/src/tools.rs
