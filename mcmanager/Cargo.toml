@@ -4,5 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-termion = "4.0.3"
+crossterm = "0.28.1"
 mcping = "0.2.0"
+ssh2 = "0.9.5"
+
+[profile.release]
+opt-level = 3        # Maximum optimizations (0-3, s/z for size optimization)
+lto = "fat"          # Enables link-time optimization (fat/thin/true/false)
+codegen-units = 1    # Improves optimization at the cost of longer build times
+panic = "abort"      # Removes panic handling, reducing binary size
+strip = true         # Removes debug symbols for smaller binaries
+debug = false        # Excludes debug info (set to true if you want backtraces)
